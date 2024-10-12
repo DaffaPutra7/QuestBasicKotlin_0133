@@ -11,6 +11,7 @@ data class DataClass(
 )
 
 fun main() {
+
     val data = DataClass(1, "indra@gmail.com")
     println(data)
 
@@ -25,4 +26,5 @@ fun main() {
     // Fungsi Copy dengan Perubahan
     val data4 = data.copy(email = "sahar@gmail.com")
     println(data4)
+
 }
